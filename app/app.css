@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+}
+section.fundal{
+  background-image: url("assets/images/bg2.jpg");
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+
+}
+section.best{
+  background-image: url("assets/images/p2.jpg");
+
+}
+.alignr a{
+  padding: 10px;
+}
+header{
+  text-align: right;
+  font-size: 20;
+  font-family: sans-serif;
+  font-variant: inherit;
+}
+header a{
+  text-align: right;
+  margin-right: 5px;
+  height: 10px;
+  color: rgb(255, 255, 255);
+}
+section.bing{
+  position: relative;
+  display: block;
+  margin-left: a;
+  margin-right: auto;
+  height: 30%;
+
+}
+
+
+.round0-button {
+    width: 10%;
+    height: 0.1%;
+    padding-bottom: 10%;
+    border-radius: 50%;
+    border: 2px solid #f5f5f5;
+    overflow: hidden;
+    background: #464646;
+    box-shadow: 0 0 3px gray;
+    background-position: center;
+}
+.round0-button:hover {
+    background: #262626;
+}
+.round0-button img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    padding: 10%;
+    height: auto;
+}
+
+.round1-button {
+    width: 10%;
+    height: 0;
+    padding-bottom: 10%;
+    border-radius: 50%;
+    border: 2px solid #f5f5f5;
+    overflow: hidden;
+    background: #464646;
+    box-shadow: 0 0 3px gray;
+    background-position: center;
+}
+.round1-button:hover {
+    background: #262626;
+}
+.round1-button img {
+    display: block;
+    width: 50%;
+    padding: 10%;
+    height: auto;
+}
+
+.round2-button {
+    width: 10%;
+    height: 0;
+    padding-bottom: 10%;
+    border-radius: 50%;s
+    border: 2px solid #f5f5f5;
+    overflow: hidden;
+    background: #464646;
+    box-shadow: 0 0 3px gray;
+    background-position: center;
+}
+.round2-button:hover {
+    background: #262626;
+}
+.round2-button img {
+    display: block;
+    width: 50%;
+    padding: 20%;
+    height: auto;
+}
+
+.round3-button {
+    display:block;
+    width:20%;
+    height:100px;
+    line-height:50px;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    color:#f5f5f5;
+    text-align:center;
+    text-decoration:none;
+    background: #464646;
+    box-shadow: 0 0 3px gray;
+    font-size:20px;
+    font-weight:bold;
+    margin-left: 40%;
+    margin-top: 30%;
+    margin-bottom: 40%;
+    font-family: inherit;
+    margin-right: 40%;
+    margin-bottom: 40%;
+    background: linear-gradient(to bottom right, red, yellow);
+}
+.round3-button:hover {
+    background: #262626;
+}
+
+#motor{
+  margin-right: 43%;
+  margin-top: 5%;
+  margin-left: 50%;
+  font-size: 30;
+  background-color: rgb(150,150,150);
+  background: linear-gradient(to bottom right, red, yellow);
+}
