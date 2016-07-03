@@ -1,0 +1,73 @@
+.fundal1 {
+    background: url("../assets/images/pat-bg.png");
+    background-size: cover;
+}
+.nomarg {
+    color: black;
+    margin-bottom: 15px;
+    font-weight: 500;
+
+}
+.fundal1 h1 {
+    margin-top: 13%;
+}
+.orangebtn {
+    background-color: #FF3300;
+    color: white;
+}
+.orangebtn:first-child {
+    border-radius: 5px 0px 0px 5px;
+}
+.orangebtn:last-child {
+    border-radius: 0px 5px 5px 0px;
+}
+.whitebtn {
+    background-color: white;
+}
+#updatecart1{
+  background-color: #FF3300;
+  color:white;
+  float:right;
+}
+#updatecart2{
+  background-color: #FF3300;
+  color:white;
+  float:right;
+  margin-top:2%;
+}
+
+table img{
+  height:auto;
+  width:40%;
+}
+th,
+td{
+  width:19%;
+}
+.table.tablecard1 td{
+  vertical-align:middle;
+}
+.table.tablecard1 .lastcol{
+  padding-left:7%;
+}
+h4,
+h6{
+  font-weight:bold;
+}
+#finalprice{
+  font-size:30px;
+  color:#FF3300;
+}
+.table.tablecard2 td:nth-child(2n+1){
+  font-weight:bold;
+}
+.table.tablecard1 th,
+.table.tablecard2 th{
+  border-top-color:transparent;
+}
+.table.tablecard1 tr:nth-child(2) td{
+  border-top-width:2.5px;
+}
+.table.tablecard1 tr:nth-child(4) td{
+  border-bottom:solid #ddd 1px;
+}

@@ -1,0 +1,54 @@
+
+.fundal1 {
+    background: url("../assets/images/pat-bg.png");
+    background-size: cover;
+}
+.nomarg {
+    text-align: center;
+    color: black;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.fundal1 h1 {
+    margin-top: 5%;
+}
+.carousel-caption p {
+    font-size: 25px;
+    font-weight: bold;
+}
+.orangebtn {
+    background-color: #FF3300;
+    color: white;
+}
+.orangebtn:first-child {
+    border-radius: 5px 0px 0px 5px;
+}
+.orangebtn:last-child {
+    border-radius: 0px 5px 5px 0px;
+}
+.whitebtn {
+    background-color: white;
+}
+.nav {
+    margin-top: 20px;
+}
+.nav .active {
+    border-top: solid #FF3300 3px;
+    border-radius: 5px 5px 0px 0px;
+    color: #FF3300;
+    font-weight: bold;
+}
+.nav a {
+    color: #FF3300
+}
+.tab-content {
+    background-color: #FF3300;
+    margin-top: 15px;
+    color: #000000;
+}
+#home {
+    padding: 20px;
+}
+#menu1 {
+    padding: 20px;
+}

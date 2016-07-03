@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+.fundal2 {
+    background-color: #1BE9E9;
+    margin-top: 0;
+}
+/* Header */
+#navpad {
+    padding-right: 10px;
+}
+/* Footer */
+#fter{
+  padding-top: 60px;
+  background-image:url("../images/crossword.png");
+  background-size:cover;
+}
+#ffont {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+#arrow {
+    color: cyan;
+}
+#arrow:hover {
+    transition: 1.5s;
+    transform: scale(1.5) rotate(360deg);
+}

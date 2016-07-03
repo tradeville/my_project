@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About</title>
+    <style></style>
+    <link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="cart.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/common.css">
+    <script src="../assets/js/jquery-2.1.4.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.js"></script>
+</head>
+
+<body id="top">
+    <header id='header'>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div>
+                <div class="navbar-header">
+                    <button type="button" data-target="#myNavbar" data-toggle="collapse" class="btn btn-default btnlg navbar-toggle">
+                        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                    </button>
+                    <a href="../index.html" class="navbar-brand">QShop</a>
+                </div>
+                <div id="myNavbar" class="collapse navbar-collapse">
+                    <ul id="navpad" class="nav navbar-nav navbar-right">
+                        <li><a href="../about/about.html">About</a></li>
+                        <li><a href="../contact/contact.html">Contact</a></li>
+                        <li><a href="../login/login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="fundal1">
+        <div class="container">
+            <h1 class="nomarg">Shopping Cart</h1>
+            <div class="row">
+                <div class="col-sm-12">
+                    <table class="table tablecard1">
+                        <tr>
+                            <th></th>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th class="lastcol">Total</th>
+                        </tr>
+                        <tr>
+                            <td><img src="../assets/images/products/product-1.jpg"></td>
+                            <td>Photo</td>
+                            <td>$150</td>
+                            <td>
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-secondary orangebtn">-</button>
+                                    <button type="button" class="btn btn-secondary whitebtn">1</button>
+                                    <button type="button" class="btn btn-secondary orangebtn">+</button>
+                                </div>
+                            </td>
+                            <td class="lastcol">$150</td>
+                        </tr>
+                        <tr>
+                            <td><img src="../assets/images/products/product-2.jpg"></td>
+                            <td>Painting</td>
+                            <td>$100</td>
+                            <td>
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-secondary orangebtn">-</button>
+                                    <button type="button" class="btn btn-secondary whitebtn">2</button>
+                                    <button type="button" class="btn btn-secondary orangebtn">+</button>
+                                </div>
+                            </td>
+                            <td class="lastcol">$200</td>
+                        </tr>
+                        <tr>
+                            <td><img src="../assets/images/products/product-3.jpg"></td>
+                            <td>Ilustration</td>
+                            <td>$300</td>
+                            <td>
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-secondary orangebtn">-</button>
+                                    <button type="button" class="btn btn-secondary whitebtn">1</button>
+                                    <button type="button" class="btn btn-secondary orangebtn">+</button>
+                                </div>
+                            </td>
+                            <td class="lastcol">$300</td>
+                        </tr>
+                    </table>
+                    <a id="updatecart1" class="btn btn-primary" href="#" role="button">Update Cart</a>
+                </div>
+                <div class="col-sm-12">
+                <div class="col-sm-6">
+                    <h4>Calculate Shipping</h4>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h6>Country</h6>
+                            <select placeholder="Select your option" class="form-control">
+                                <option disabled selected>Select yout option</option>
+                                <option>Romania</option>
+                                <option>USA</option>
+                                <option>UK</option>
+                                <option>Germany</option>
+                                <option>Spain</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6>City</h6>
+                            <input type="text" class="form-control" placeholder="Bucharest">
+                        </div>
+                        <div class="col-sm-6">
+                            <h6>Zip Code</h6>
+                            <input type="text" class="form-control">
+                        </div>
+                        <a id="updatecart2" class="btn btn-primary" href="#" role="button">Update Totals</a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                  <table class="table tablecard2">
+                      <tr>
+                          <th><h4>Cart Total<h4></th>
+                      </tr>
+                      <tr>
+                          <td>Cart Subtotal</td>
+                          <td>$650</td>
+                      </tr>
+                      <tr>
+                          <td>Shipping</td>
+                          <td>Free</td>
+                      </tr>
+                      <tr>
+                          <td>Order Total</td>
+                          <td id="finalprice">$650</td>
+                      </tr>
+                    </table>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <footer id="fter">
+        <h1 id="ffont">Copyright <i class="fa fa-copyright" aria-hidden="true"></i>
+     2016 Summer Fun <a href="#top"><i id="arrow" class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></a></h1>
+   </footer>
+</body>
+
+</html>

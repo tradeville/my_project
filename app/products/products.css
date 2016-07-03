@@ -1,0 +1,125 @@
+
+.fundal1 {
+    background-color: #1EF2B9;
+}
+#centru {
+    margin-top: 3%;
+    padding: 80px 0px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+.fundal2 {
+    background: url("../assets/images/pat-bg.png");
+    background-size: cover;
+}
+.nomarg {
+    text-align: center;
+    color: black;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.col-sm-3 img {
+    height: auto;
+    width: 100%;
+}
+.card {
+    box-shadow: 0px 5px 0px #EBEBEB;
+    z-index: 0;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+}
+.sale {
+    height: 50px;
+    width: 50px;
+    z-index: 20;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    top: 49%;
+    left: 115%;
+    margin-top: -150px;
+    margin-left: -60px;
+    position: absolute;
+}
+.sale h4 {
+    line-height: 27px;
+    text-align: center;
+}
+.addtocart {
+    background-color: black;
+    height: 33px;
+    width: 189px;
+    border-radius: 5px 5px 0px 0px;
+    top: 55%;
+    left: 31%;
+    margin-top: -150px;
+    margin-left: -58px;
+    z-index: 10;
+    opacity: 0;
+    position: absolute;
+}
+.top-img-card:hover .addtocart {
+    transition: 1.5s;
+    opacity: 1;
+}
+.addtocart a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.addtocart a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#ppad {
+    padding-top: 2%;
+    padding-left: 28%;
+}
+.card-img-top {
+    border-radius: 5px 5px 0px 0px;
+}
+.card-img-top:hover {
+    transition: 1.5s;
+    opacity: 0.7;
+}
+h4 {
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+#searchtitle {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#search {
+    width: 100%;
+    height: 40px;
+    border: solid #EBEBEB 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+li img {
+    margin-bottom: 40px;
+}
+li img:hover {
+    transition: 1.5s;
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.pricetag {
+    color: black;
+    font-size: 30px;
+}
